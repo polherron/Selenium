@@ -1,11 +1,6 @@
 ﻿using OpenQA.Selenium;
-using OpenQA.Selenium.Support.PageObjects;
 using OpenQA.Selenium.Support.UI;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace TestFramework
 {
@@ -17,7 +12,7 @@ namespace TestFramework
         Browser myBrowser = new Browser();
 
 
-        //Examples of properties initialised using
+        //Examples of properties initialised using expression bodies
         IWebElement aboutUsMenuItem => myBrowser.Driver.FindElement(By.Id("menu-item-7547")); 
         IWebElement userIdControl => myBrowser.Driver.FindElement(By.Id("usr"));
         IWebElement passwordControl => myBrowser.Driver.FindElement(By.Id("pwd"));
