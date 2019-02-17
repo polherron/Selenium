@@ -30,7 +30,6 @@ namespace TestFramework
 
         public bool checkPhoneNumber()
         {
-            GoTo();
             return contactPhoneNumber.GetAttribute("innerHTML").Contains("+353 (74) 916-7600");
         }
        

@@ -18,6 +18,7 @@ namespace Tests
             Pages.AboutUs.GoTo();
             bool result = Pages.AboutUs.checkPhoneNumber();
             Assert.IsTrue(result);
+            Pages.AboutUs.Close();
         }
 
     //    [Test]
